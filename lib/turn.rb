@@ -10,7 +10,7 @@ end
 #make move on board
 def move(board, index, token)
   board[index] = token
-  play(board)  
+  play(board)
 end
 
 #change input to integer
