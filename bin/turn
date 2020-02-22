@@ -13,4 +13,3 @@ puts "-----------"
 puts "   |   |   "
 
 turn(board)
-```
