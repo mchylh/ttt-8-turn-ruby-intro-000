@@ -6,5 +6,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 board = get.strip
-display_board(board)
-board = get.strip
+puts display_board(board)
+turn(board)
