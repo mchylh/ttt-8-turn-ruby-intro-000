@@ -34,8 +34,24 @@ def turn(board)
     move(board, index, token)
     display_board(board)
    else
-    puts 'try again'
+    puts 'invalid move'
     turn(board)
   end
   display_board(board)
+end
+
+#position_taken?
+def position_taken?(board, index)
+  !(board[index].nil? || board[index] == " ")
+end
+
+#valid_move?
+def valid_move?(board, index)
+
+  if index.between?(0,8) && !position_taken?(board, index)
+      puts 'this is a valid move'
+    return true
+  else
+   return false
+  end
 end
