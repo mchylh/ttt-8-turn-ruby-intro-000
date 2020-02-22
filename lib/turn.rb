@@ -7,27 +7,10 @@ def display_board(board)
   puts "   |   |   "
 end
 
-#valid_move?
-def valid_move?(board, index)
-
-  if index.between?(0,8) && !position_taken?(board, index)
-      puts 'this is a valid move'
-    return true
-  else
-   return false
-  end
-end
-
-#position_taken?
-def position_taken? (board, index)
-  !(board[index].nil? || board[index] == " ")
-end
-
-#move
+#make move on board
 def move(board, index, token)
   board[index] = token
-  play(board)
-
+  play(board)  
 end
 
 #change input to integer
