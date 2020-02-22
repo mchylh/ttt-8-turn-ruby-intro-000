@@ -11,4 +11,4 @@ puts "-----------"
 puts "   |   |   "
 puts "-----------"
 puts "   |   |   "
-def turn(board)
+turn(board)
