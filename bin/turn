@@ -1,13 +1,8 @@
 #!/usr/bin/env ruby
+
 require_relative '../lib/turn'
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
-  def display_board(board)
-    puts "   |   |   "
-    puts "-----------"
-    puts "   |   |   "
-    puts "-----------"
-    puts "   |   |   "
-  end
+display_board(board)
