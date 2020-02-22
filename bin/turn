@@ -5,6 +5,5 @@ require_relative '../lib/turn'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
-board = get.strip
 puts display_board(board)
 turn(board)
