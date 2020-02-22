@@ -7,3 +7,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 def display_board(board)
 end
+def turn(board)
+end
