@@ -24,7 +24,7 @@ def input_to_index(user_input)
    user_input.to_i - 1
 end
 
-#MAKE TURN
+#turn board
 def turn(board)
   puts "Please enter 1-9:"
   #get the user input
@@ -65,7 +65,7 @@ def position_taken? (board, index)
   !(board[index].nil? || board[index] == " ")
 end
 
-#MAKE TURN
+#turn
 def turn(board)
   puts "Please enter 1-9:"
   #get the user input
@@ -74,7 +74,7 @@ def turn(board)
   index = input_to_index(user_input)
   token = current_player(board)
 
-  #check for validation
+#check for validation
   if valid_move?(board,index)
     puts 'valid move'
     move(board, index, token)
