@@ -30,7 +30,7 @@ end
 def move(board, index, token)
   board[index] = token
   play(board)
-  
+
 end
 
 #turn(board)
