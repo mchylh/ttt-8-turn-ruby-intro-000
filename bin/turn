@@ -8,4 +8,3 @@ puts "Welcome to Tic Tac Toe!"
 board = get.strip
 display_board(board)
 board = get.strip
-turn(board)
